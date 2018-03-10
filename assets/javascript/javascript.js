@@ -89,7 +89,7 @@ $(document).ready(function() {
         }
     }
 
-    //on click event to add an additional movie button when submitted - push input to array.
+    //add button on click 
 
     $("#addMovie").on("click", function(event) {
         event.preventDefault();
@@ -100,10 +100,10 @@ $(document).ready(function() {
     });
 
 
-    //on click entire document to cover all elements named "movie" and run display function
+    //run display on click
     $(document).on("click", ".movie", displayInfo);
 
-    //run function to display all buttons on startup
+    //show buttons on page load
     renderButtons();
 
 });
