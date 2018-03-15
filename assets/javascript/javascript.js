@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     function displayInfo() {
         var movie = $(this).attr("movie-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=bhJoACrtFTnvCFhMWjzVtFPCc0srCJxj";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + movie + "&api_key=bhJoACrtFTnvCFhMWjzVtFPCc0srCJxj";
 
         //AJAX
 
